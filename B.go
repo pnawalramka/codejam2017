@@ -9,10 +9,10 @@ import (
 )
 
 func main() {
-     reader := bufio.NewReader(os.Stdin)
-     strcases,_ := reader.ReadString('\n')
-     cases,_ := strconv.Atoi(strings.Trim(strcases,"\n"))
-     for i:=1; i<=cases; i++ {
+    reader := bufio.NewReader(os.Stdin)
+    strcases,_ := reader.ReadString('\n')
+    cases,_ := strconv.Atoi(strings.Trim(strcases,"\n"))
+    for i:=1; i<=cases; i++ {
      	input, _ := reader.ReadString('\n')
 		input = strings.Trim(input,"\n")
 		N, _ := strconv.Atoi(input)
